@@ -75,8 +75,15 @@ class _LoginFormState extends State<LoginForm> {
           else
             ElevatedButton(
               // impement action
-                onPressed: null,
-                child: Text(_authMode == AuthMode.logIn ? "Log In" : "SIGN UP"))
+              onPressed: null,
+              child: Text(_authMode == AuthMode.logIn ? "Log In" : "SIGN UP"),
+            ),
+          TextButton(
+            // to do 
+            onPressed: null,
+            child: Text(
+                '${_authMode == AuthMode.logIn ? 'SIGN UP' : 'LOG IN'} insted'),
+          )
         ],
       ),
     );
