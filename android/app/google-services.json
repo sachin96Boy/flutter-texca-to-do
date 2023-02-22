@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "462960524134",
+    "project_id": "to-do-texca",
+    "storage_bucket": "to-do-texca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462960524134:android:e4c66ed497955300ed66a7",
+        "android_client_info": {
+          "package_name": "com.example.to_do_tecxa_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462960524134-jmu0d9svjf68qc7kq17sv4fmtthfct65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRMcWEs_JfSdauNnkRGjm8_f5i8wkuOj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462960524134-jmu0d9svjf68qc7kq17sv4fmtthfct65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
