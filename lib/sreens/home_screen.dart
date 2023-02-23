@@ -22,6 +22,24 @@ class HomeScreen extends StatelessWidget {
           size: 30.0,
         ),
       ),
+      body: Stack(
+        children: [
+          Container(
+            padding:
+                const EdgeInsets.symmetric(horizontal: 20.0, vertical: 15.0),
+            child: Column(children: [
+              Expanded(
+                  child: SingleChildScrollView(
+                child: Column(children: [
+                  Container(
+                    margin: const EdgeInsets.only(top: 50.0, bottom: 20.0),
+                  )
+                ]),
+              ))
+            ]),
+          ),
+        ],
+      ),
     );
   }
 }
