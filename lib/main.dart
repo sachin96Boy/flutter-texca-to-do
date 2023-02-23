@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:to_do_tecxa_mobile/sreens/home_screen.dart';
 
 import 'package:to_do_tecxa_mobile/sreens/login_screen.dart';
 
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const LoginScreen(),
+      home: const HomeScreen(),
     );
   }
 }
